@@ -193,15 +193,12 @@ def Game():
 #setting a variable to true
 play = True
 
-#while play is true, user will continue to play the game
-while (play):
-    #setting game to a variable fish
-    fish = Game()
+#setting game to a variable fish
+fish = Game()
     
-    #game ends when fish dies
-    deadFish(fish)
-    printBoard(deadWater)
-    play = replay()
+#game ends when fish dies
+deadFish(fish)
+printBoard(deadWater)
 
 print('Thank you for playing my virtual pet game!')
 
